@@ -26,11 +26,13 @@ h3 a {
   font-weight: 200;
   font-size: 25pt;
   text-align: center;
-  background-color: none;;
+  background-color: inherit;
+  color: inherit;
 }
-h3 a:hover {color: white;
-  text-decoration: underline;
-  background-color: #555;
+h3 a:hover {
+  background-color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 h5 {
   font-size: 12pt;
@@ -76,15 +78,59 @@ a {
    color: white;
    border-bottom: white;
 }
-h3 a {
+p.col-md-6 {
+  text-align: justify;
+}
+.col-md-6 a {
   background-color: inherit;
   color: inherit;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 18pt;
+  float: none;
 }
-h3 a:hover {
-  background-color: inherit;
+.col-md-6 a:hover {
+  background-color: #c9c9c9;
   text-decoration: none;
   color: inherit;
 }
+p.col-md-6{
+  background-color: inherit;
+  color: inherit;
+  padding: 20px;
+  font-weight: 300;
+  font-size: 18pt;
+  float: none;
+}
 .col-md-12 {
   text-align: center;
+}
+.footer {
+  padding: 5px;
+  position: fixed;
+}
+.row {
+  padding: 10px;
+  background-color: inherit;
+  text-align: center;
+  float: none;
+}
+#gif {
+  text-align: center;
+}
+.column {
+  background-color: inherit;
+  color: inherit;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 18pt;
+  float: none;
+  font-weight: bold;
+}
+col-md-6.column {
+  width: 50%;
+}
+p.column {
+  font-weight: 200;
+  font-size: 16pt;
 }
