@@ -14,7 +14,7 @@ _This webpage was designed to function as a repository for all code created by A
 
 ## Known Bugs
 
-_Issue reading bootstrap.mn.js:6._
+_Issue reading bootstrap.mn.js:6. Ordered list is not numbering in projects.html_
 
 ## Support and contact details
 

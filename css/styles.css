@@ -28,6 +28,7 @@ h3 a {
   text-align: center;
   background-color: inherit;
   color: inherit;
+  opacity: 1;
 }
 h3 a:hover {
   background-color: inherit;
@@ -54,29 +55,33 @@ ul{
     padding: 0;
     width: 100px;
     overflow: hidden;
+    background-color: #3b3a36;
+    opacity: .5;
+
 }
 li {
-  display: inline;
+  display: block;
+  float: none;
 }
 li a {
     display: block;
     width: 100px;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    /*text-decoration: none;*/
     color: white;
     font-weight: 100;
 }
 li a:hover {
     background-color: #555;
     color: white;
+    text-decoration: none;
 }
 a {
   display: block;
-   padding: 8px;
-   background-color: #3b3a36;
-   color: white;
-   border-bottom: white;
+  padding: 8px;
+  color: white;
+  opacity: .5;
 }
 p.col-md-6 {
   text-align: justify;
@@ -89,25 +94,27 @@ p.col-md-6 {
   font-size: 18pt;
   float: none;
 }
+h3 a:hover {
+  background-color: none;
+  text-align: center;
+}
 .col-md-6 a:hover {
   background-color: #c9c9c9;
   text-decoration: none;
   color: inherit;
 }
-p.col-md-6{
-  background-color: inherit;
-  color: inherit;
-  padding: 20px;
-  font-weight: 300;
-  font-size: 18pt;
-  float: none;
-}
 .col-md-12 {
   text-align: center;
 }
 .footer {
-  padding: 5px;
-  position: fixed;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: none;
+   color: inherit;
+   text-align: center;
+   opacity: .5;
 }
 .row {
   padding: 10px;
@@ -130,7 +137,18 @@ p.col-md-6{
 col-md-6.column {
   width: 50%;
 }
+a.column {
+  font-size: 25;
+  font-weight: bold;
+}
 p.column {
   font-weight: 200;
   font-size: 16pt;
+}
+.project-p {
+  font-weight: 200;
+  padding: 20px;
+}
+.goals-text {
+  font-weight: 200;
 }
