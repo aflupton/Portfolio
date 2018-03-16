@@ -1,6 +1,10 @@
 body{
   background-color: #fff;
 }
+img {
+  background-image: url(https://i.pinimg.com/originals/68/5e/18/685e18ff8147427079a14ce27d984688.jpg);
+  opacity: .5;
+}
 strong {
   font-weight: bold;
 }
@@ -9,7 +13,7 @@ ul{
     margin: 0;
     padding: 0;
     width: 100px;
-    color: #2E4A62;
+    overflow: hidden;
 }
 li a {
     display: block;
@@ -17,6 +21,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: white;
 }
 li a:hover {
     background-color: #555;
@@ -30,13 +35,13 @@ li {
 a {
   display: block;
    padding: 8px;
-   background-color: #dddddd;
+   background-color: #3b3a36;
+   color: white;
+   border-bottom: white;
 }
 .jumbotron {
   background-color: #e3e3e3;
   text-align: center;
   border-radius: 20px;
-}
-#title {
-  color: #312c32;
+  background-image: url(https://i.pinimg.com/originals/68/5e/18/685e18ff8147427079a14ce27d984688.jpg);
 }
